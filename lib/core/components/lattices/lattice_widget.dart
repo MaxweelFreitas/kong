@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:kong/core/constants/colors.dart';
+
+import '../../constants/colors.dart';
 
 class LatticeWidget extends StatelessWidget {
   final Size size;
 
   const LatticeWidget({
-    Key key,
-    this.size = const Size(36, 32),
+    Key? key,
+    this.size = const Size(36, 24),
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -249,7 +250,7 @@ class LatticeWidget extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  width: 16.77,
+                  width: constraints.maxWidth * .46,
                   height: constraints.maxHeight * .06,
                   color: AppColors.pink,
                 ),
@@ -259,7 +260,7 @@ class LatticeWidget extends StatelessWidget {
                   color: AppColors.darkPink,
                 )),
                 Container(
-                  width: 16.77,
+                  width: constraints.maxWidth * .46,
                   height: constraints.maxHeight * .06,
                   color: AppColors.pink,
                 ),

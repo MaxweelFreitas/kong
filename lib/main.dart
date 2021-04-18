@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'core/constants/colors.dart';
 import 'core/themes/theme_app.dart';
-import 'pages/home_page.dart';
+import 'pages/scenario/scenario_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeApp().theme(),
-      home: HomePage(),
+      home: ScenarioPage(),
     );
   }
 }
