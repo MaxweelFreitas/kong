@@ -9,15 +9,17 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_modular: ^3.1.0
+  flutter_triple: ^1.0.5+1
+  rx_notifier: ^1.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
   effective_dart: ^1.3.1
+  flutter_modular_test: ^1.0.1
 flutter:
   uses-material-design: true
   assets:
-  - assets/sprites/extra/
+  - assets/sprites/kong/
+  - assets/sprites/princess/
   - assets/sprites/stairs/
   - assets/sprites/walk/
-  # - assets/icon/
-  # - assets/sprites/svgs/
